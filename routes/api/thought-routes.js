@@ -32,7 +32,7 @@ router
 .put(addReaction);
 
 router
-.route("/:thoughtId/:reactionId/reactions")
+.route("/:thoughtId/reactions/:reactionId")
 .delete(removeReaction);
 
 module.exports = router;
